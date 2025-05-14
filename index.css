@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/Images/bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  color: red;
+  height: 115px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 122px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 20px;
+  padding: 30px;
+}
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: rgba(248, 243, 243, 0.021);
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+ font-weight: 400;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.hero-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main input{
+  padding:7px 100px 8px 14px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23 ,23, 0.9);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.separation {
+  height: 7px;
+  background-color: rgb(137, 30, 78);
+}
+.tr{
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 2px 50px;
+}
+.secImg{
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  padding: 20px;
+  overflow:hidden;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  gap: 20px;
+  
+}
+
+.secImg img{
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.secImg img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.gt{
+  height: 100px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(255, 253, 253, 0.19);
+}
+.gt:hover{
+  background-color:rgba(255, 253, 253, 0.39);
+} ;
+.section{
+  font-family: "Martel Sans", sans-serif;
+}
+
+.para{
+  font-family: "Martel Sans", sans-serif;
+  padding: 20px 51px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.p1{
+  height: 200px;
+  color: white;
+  background-color: rgb(54, 24, 71);
+}
+
+.faqs h2{
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.faqs{
+  background-color: black;
+  color: white;
+  justify-self: center;
+  width: 60vw;
+  
+}
+.faqbox{
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(75, 69, 69);
+  padding: 14px;
+  margin-top: 8px;
+}
+.faqbox:hover{
+  background-color: gray;
+}
